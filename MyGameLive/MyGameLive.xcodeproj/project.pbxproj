@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B9236A541E80EB4F0045CB72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9236A531E80EB4F0045CB72 /* AppDelegate.swift */; };
-		B9236A561E80EB4F0045CB72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9236A551E80EB4F0045CB72 /* ViewController.swift */; };
 		B9236A591E80EB4F0045CB72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9236A571E80EB4F0045CB72 /* Main.storyboard */; };
 		B9236A5B1E80EB4F0045CB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9236A5A1E80EB4F0045CB72 /* Assets.xcassets */; };
 		B9236A5E1E80EB4F0045CB72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9236A5C1E80EB4F0045CB72 /* LaunchScreen.storyboard */; };
 		B9236A691E80EB4F0045CB72 /* MyGameLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9236A681E80EB4F0045CB72 /* MyGameLiveTests.swift */; };
 		B9236A741E80EB4F0045CB72 /* MyGameLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9236A731E80EB4F0045CB72 /* MyGameLiveUITests.swift */; };
+		B9F5EEB41E81358800E444B5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F5EEB31E81358800E444B5 /* Home.storyboard */; };
+		B9F5EEB71E8135AF00E444B5 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F5EEB51E8135AF00E444B5 /* Live.storyboard */; };
+		B9F5EEB91E8135CD00E444B5 /* Attention.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F5EEB81E8135CD00E444B5 /* Attention.storyboard */; };
+		B9F5EEBC1E8135F300E444B5 /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F5EEBA1E8135F300E444B5 /* Discovery.storyboard */; };
+		B9F5EEBE1E81360E00E444B5 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F5EEBD1E81360E00E444B5 /* Mine.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		B9236A501E80EB4F0045CB72 /* MyGameLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGameLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9236A531E80EB4F0045CB72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9236A551E80EB4F0045CB72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9236A581E80EB4F0045CB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9236A5A1E80EB4F0045CB72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9236A5D1E80EB4F0045CB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		B9236A6F1E80EB4F0045CB72 /* MyGameLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGameLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9236A731E80EB4F0045CB72 /* MyGameLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGameLiveUITests.swift; sourceTree = "<group>"; };
 		B9236A751E80EB4F0045CB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F5EEB31E81358800E444B5 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../../other/Home.storyboard; sourceTree = "<group>"; };
+		B9F5EEB61E8135AF00E444B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyGameLive/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		B9F5EEB81E8135CD00E444B5 /* Attention.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Attention.storyboard; path = ../../other/Attention.storyboard; sourceTree = "<group>"; };
+		B9F5EEBB1E8135F300E444B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyGameLive/Base.lproj/Discovery.storyboard; sourceTree = SOURCE_ROOT; };
+		B9F5EEBD1E81360E00E444B5 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Mine.storyboard; path = ../../other/Mine.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +112,6 @@
 				B9F5EE991E80F7DD00E444B5 /* Attention */,
 				B9F5EE9A1E80F7F100E444B5 /* Finde */,
 				B9F5EE9B1E80F7FA00E444B5 /* Mine */,
-				B9236A551E80EB4F0045CB72 /* ViewController.swift */,
 				B9F5EE951E80F2E500E444B5 /* other */,
 				B9236A5A1E80EB4F0045CB72 /* Assets.xcassets */,
 				B9236A531E80EB4F0045CB72 /* AppDelegate.swift */,
@@ -133,7 +140,6 @@
 		B9F5EE951E80F2E500E444B5 /* other */ = {
 			isa = PBXGroup;
 			children = (
-				B9236A571E80EB4F0045CB72 /* Main.storyboard */,
 				B9236A5C1E80EB4F0045CB72 /* LaunchScreen.storyboard */,
 				B9236A5F1E80EB4F0045CB72 /* Info.plist */,
 			);
@@ -217,6 +223,7 @@
 		B9F5EE9E1E80F82500E444B5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B9F5EEBD1E81360E00E444B5 /* Mine.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -238,6 +245,7 @@
 		B9F5EEA11E80F85A00E444B5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B9F5EEBA1E8135F300E444B5 /* Discovery.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -259,6 +267,7 @@
 		B9F5EEA41E80F87C00E444B5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B9F5EEB81E8135CD00E444B5 /* Attention.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -280,6 +289,7 @@
 		B9F5EEA71E80F8C600E444B5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B9F5EEB51E8135AF00E444B5 /* Live.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,6 +311,7 @@
 		B9F5EEAA1E80F8E500E444B5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B9F5EEB31E81358800E444B5 /* Home.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -322,6 +333,7 @@
 		B9F5EEAD1E8132AE00E444B5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B9236A571E80EB4F0045CB72 /* Main.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -448,9 +460,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F5EEBC1E8135F300E444B5 /* Discovery.storyboard in Resources */,
 				B9236A5E1E80EB4F0045CB72 /* LaunchScreen.storyboard in Resources */,
+				B9F5EEB91E8135CD00E444B5 /* Attention.storyboard in Resources */,
+				B9F5EEB41E81358800E444B5 /* Home.storyboard in Resources */,
 				B9236A5B1E80EB4F0045CB72 /* Assets.xcassets in Resources */,
+				B9F5EEB71E8135AF00E444B5 /* Live.storyboard in Resources */,
 				B9236A591E80EB4F0045CB72 /* Main.storyboard in Resources */,
+				B9F5EEBE1E81360E00E444B5 /* Mine.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +492,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9236A561E80EB4F0045CB72 /* ViewController.swift in Sources */,
 				B9236A541E80EB4F0045CB72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,7 +534,7 @@
 				B9236A581E80EB4F0045CB72 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B9236A5C1E80EB4F0045CB72 /* LaunchScreen.storyboard */ = {
@@ -528,6 +544,24 @@
 			);
 			name = LaunchScreen.storyboard;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		B9F5EEB51E8135AF00E444B5 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F5EEB61E8135AF00E444B5 /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../../other;
+			sourceTree = "<group>";
+		};
+		B9F5EEBA1E8135F300E444B5 /* Discovery.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F5EEBB1E8135F300E444B5 /* Base */,
+			);
+			name = Discovery.storyboard;
+			path = ../../other;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
