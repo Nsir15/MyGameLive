@@ -40,7 +40,7 @@
 		B9236A581E80EB4F0045CB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9236A5A1E80EB4F0045CB72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9236A5D1E80EB4F0045CB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B9236A5F1E80EB4F0045CB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9236A5F1E80EB4F0045CB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		B9236A641E80EB4F0045CB72 /* MyGameLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGameLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9236A681E80EB4F0045CB72 /* MyGameLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGameLiveTests.swift; sourceTree = "<group>"; };
 		B9236A6A1E80EB4F0045CB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,12 +97,17 @@
 		B9236A521E80EB4F0045CB72 /* MyGameLive */ = {
 			isa = PBXGroup;
 			children = (
-				B9236A531E80EB4F0045CB72 /* AppDelegate.swift */,
+				B9F5EEAE1E81330500E444B5 /* Tools */,
+				B9F5EE961E80F44E00E444B5 /* Main */,
+				B9F5EE971E80F45800E444B5 /* Home */,
+				B9F5EE981E80F46100E444B5 /* Live */,
+				B9F5EE991E80F7DD00E444B5 /* Attention */,
+				B9F5EE9A1E80F7F100E444B5 /* Finde */,
+				B9F5EE9B1E80F7FA00E444B5 /* Mine */,
 				B9236A551E80EB4F0045CB72 /* ViewController.swift */,
-				B9236A571E80EB4F0045CB72 /* Main.storyboard */,
+				B9F5EE951E80F2E500E444B5 /* other */,
 				B9236A5A1E80EB4F0045CB72 /* Assets.xcassets */,
-				B9236A5C1E80EB4F0045CB72 /* LaunchScreen.storyboard */,
-				B9236A5F1E80EB4F0045CB72 /* Info.plist */,
+				B9236A531E80EB4F0045CB72 /* AppDelegate.swift */,
 			);
 			path = MyGameLive;
 			sourceTree = "<group>";
@@ -123,6 +128,217 @@
 				B9236A751E80EB4F0045CB72 /* Info.plist */,
 			);
 			path = MyGameLiveUITests;
+			sourceTree = "<group>";
+		};
+		B9F5EE951E80F2E500E444B5 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				B9236A571E80EB4F0045CB72 /* Main.storyboard */,
+				B9236A5C1E80EB4F0045CB72 /* LaunchScreen.storyboard */,
+				B9236A5F1E80EB4F0045CB72 /* Info.plist */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		B9F5EE961E80F44E00E444B5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B9F5EEAD1E8132AE00E444B5 /* Controller */,
+				B9F5EEAC1E8132A500E444B5 /* View */,
+				B9F5EEAB1E81329C00E444B5 /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B9F5EE971E80F45800E444B5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B9F5EEAA1E80F8E500E444B5 /* Controller */,
+				B9F5EEA91E80F8DB00E444B5 /* View */,
+				B9F5EEA81E80F8D200E444B5 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B9F5EE981E80F46100E444B5 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				B9F5EEA71E80F8C600E444B5 /* Controller */,
+				B9F5EEA61E80F8BC00E444B5 /* View */,
+				B9F5EEA51E80F88900E444B5 /* Model */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		B9F5EE991E80F7DD00E444B5 /* Attention */ = {
+			isa = PBXGroup;
+			children = (
+				B9F5EEA41E80F87C00E444B5 /* Controller */,
+				B9F5EEA31E80F86F00E444B5 /* View */,
+				B9F5EEA21E80F86700E444B5 /* Model */,
+			);
+			path = Attention;
+			sourceTree = "<group>";
+		};
+		B9F5EE9A1E80F7F100E444B5 /* Finde */ = {
+			isa = PBXGroup;
+			children = (
+				B9F5EEA11E80F85A00E444B5 /* Controller */,
+				B9F5EEA01E80F85100E444B5 /* View */,
+				B9F5EE9F1E80F84800E444B5 /* Model */,
+			);
+			path = Finde;
+			sourceTree = "<group>";
+		};
+		B9F5EE9B1E80F7FA00E444B5 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				B9F5EE9E1E80F82500E444B5 /* Controller */,
+				B9F5EE9D1E80F81B00E444B5 /* View */,
+				B9F5EE9C1E80F81200E444B5 /* Model */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		B9F5EE9C1E80F81200E444B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9F5EE9D1E80F81B00E444B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9F5EE9E1E80F82500E444B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9F5EE9F1E80F84800E444B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9F5EEA01E80F85100E444B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9F5EEA11E80F85A00E444B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9F5EEA21E80F86700E444B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9F5EEA31E80F86F00E444B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9F5EEA41E80F87C00E444B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9F5EEA51E80F88900E444B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9F5EEA61E80F8BC00E444B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9F5EEA71E80F8C600E444B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9F5EEA81E80F8D200E444B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9F5EEA91E80F8DB00E444B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9F5EEAA1E80F8E500E444B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9F5EEAB1E81329C00E444B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9F5EEAC1E8132A500E444B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9F5EEAD1E8132AE00E444B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9F5EEAE1E81330500E444B5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B9F5EEAF1E81332200E444B5 /* Extension */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B9F5EEAF1E81332200E444B5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +518,7 @@
 				B9236A581E80EB4F0045CB72 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B9236A5C1E80EB4F0045CB72 /* LaunchScreen.storyboard */ = {
@@ -310,6 +527,7 @@
 				B9236A5D1E80EB4F0045CB72 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,7 +630,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MyGameLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MRNAN.MyGameLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +644,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MyGameLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MRNAN.MyGameLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +727,7 @@
 				B9236A7A1E80EB4F0045CB72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9236A7B1E80EB4F0045CB72 /* Build configuration list for PBXNativeTarget "MyGameLiveTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +736,7 @@
 				B9236A7D1E80EB4F0045CB72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9236A7E1E80EB4F0045CB72 /* Build configuration list for PBXNativeTarget "MyGameLiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +745,7 @@
 				B9236A801E80EB4F0045CB72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
